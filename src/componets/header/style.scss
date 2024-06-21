@@ -1,0 +1,38 @@
+
+.container-80 {
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  height: 3em;
+  align-items: center;
+  display: flex;
+  .titleQuali {
+    color: rgb(15, 120, 190);
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .user-ico {
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+  }
+}
+
+
+
+.header-black {
+  background-color: black;
+  color: white;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+

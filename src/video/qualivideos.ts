@@ -1,34 +1,59 @@
 
 
 export const AllVideos = [
-  {tipo: 'Evento',
+  {tipo: 'Eventos',
     videos: [ 
-      {title: 'Qualividas', tipo: 'Evento', desc: 'UM EVENTO MUITO DOIDO'}
+      {title: 'Evento', tipo: 'Evento', desc: 'UM EVENTO MUITO DOIDO', link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '1' },
+      {title: 'Evento', tipo: 'Evento', desc: 'UM EVENTO MUITO DOIDO',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '2'},
+      {title: 'Evento', tipo: 'Evento', desc: 'UM EVENTO MUITO DOIDO, ',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id:'3' },
+      {title: 'Evento', tipo: 'Evento', desc: 'UM EVENTO MUITO DOIDO',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id:'4' },
     ]  
   },
-  {tipo: 'Festa', 
+  {tipo: 'Festas', 
     videos: [
-      {title: 'Qualispeed', tipo: 'Festa', desc: 'Muito foda'},
-      {title: 'Qualispeed', tipo: 'Festa', desc: 'Muito foda'},
+      {title: 'Festa', tipo: 'Festa', desc: 'Muito foda',  link:'https://www.youtube.com/watch?v=9TahpXNJw3Y',  id: '5'},
+      {title: 'Festa', tipo: 'Festa', desc: 'Muito foda', link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '6'},
+      {title: 'Festa', tipo: 'Festa', desc: 'Muito foda', link:'https://www.youtube.com/watch?v=9TahpXNJw3Y',id: '7'},
+      {title: 'Festa', tipo: 'Festa', desc: 'Muito foda',  link:'https://www.youtube.com/watch?v=9TahpXNJw3Y',  id: '8'},
+      {title: 'Festa', tipo: 'Festa', desc: 'Muito foda',  link:'https://www.youtube.com/watch?v=9TahpXNJw3Y',  id: '9'},
+      {title: 'Festa', tipo: 'Festa', desc: 'Muito foda',  link:'https://www.youtube.com/watch?v=9TahpXNJw3Y',  id: '10'},
+
+      
     ]
   },
-  {tipo: 'Tutorial', 
+  {tipo: 'Treinamento', 
     videos: [
-      {title: 'QualiEnsina', tipo: 'Tutorial', desc: 'Muito ensino'},   
-      {title: 'QualiEnsina', tipo: 'Tutorial', desc: 'Muito ensino'},    
+      {title: 'Treinamento', tipo: 'Tutorial', desc: 'Muito ensino',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '11'},   
+      {title: 'Treinamento', tipo: 'Tutorial', desc: 'Muito ensino',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '12'},
+      {title: 'Treinamento', tipo: 'Tutorial', desc: 'Muito ensino',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '0'},    
+      {title: 'Treinamento', tipo: 'Tutorial', desc: 'Muito ensino',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '13'},
+      {title: 'Treinamento', tipo: 'Tutorial', desc: 'Muito ensino',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '14'},
+
     ]
   },
-  {tipo: 'PodCast', 
+  {tipo: 'PodCasts', 
     videos: [
-      {title: 'QualiFala', tipo: 'PodCast', desc: 'Muita conversa'},
-      {title: 'QualiFala', tipo: 'PodCast', desc: 'Muita conversa'},
-      {title: 'QualiBocaAberta', tipo: 'PodCast', desc: 'Muita conversa'}
+      {title: 'PodCast', tipo: 'PodCast', desc: 'Muita conversa',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id:'15'},
+      {title: 'PodCast', tipo: 'PodCast', desc: 'Muita conversa',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '16'},
+      {title: 'PodCast', tipo: 'PodCast', desc: 'Muita conversa',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '17'},
+      {title: 'PodCast', tipo: 'PodCast', desc: 'Muita conversa',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '18'},
+      {title: 'PodCast', tipo: 'PodCast', desc: 'Muita conversa',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '19'},
     ]
   },
-  {tipo: 'Entrevista', 
+  {tipo: 'Entrevistas', 
     videos: [
-      {title: 'QualiPerguntas', tipo: 'Entrevista', desc: 'Muita Pergunta'},
-      {title: 'QualiPerguntas', tipo: 'Entrevista', desc: 'Muita Pergunta'},
+      {title: 'Entrevista', tipo: 'Entrevista', desc: 'Muita Pergunta',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '20'},
+      {title: 'Entrevista', tipo: 'Entrevista', desc: 'Muita Pergunta',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id:'21'},
+      {title: 'Entrevista', tipo: 'Entrevista', desc: 'Muita Pergunta',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id:'22'},
+      {title: 'Entrevista', tipo: 'Entrevista', desc: 'Muita Pergunta',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '23'},
+      {title: 'Entrevista', tipo: 'Entrevista', desc: 'Muita Pergunta',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id:'24'},
+      {title: 'Entrevista', tipo: 'Entrevista', desc: 'Muita Pergunta',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id:'25'},
+      {title: 'Entrevista', tipo: 'Entrevista', desc: 'Muita Pergunta',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '26'},
+      {title: 'Entrevista', tipo: 'Entrevista', desc: 'Muita Pergunta',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id: '28'},
+      {title: 'Entrevista', tipo: 'Entrevista', desc: 'Muita Pergunta',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id:'29'},
+      {title: '.Entrevista', tipo: 'Entrevista', desc: 'Muita Pergunta',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id:'30'},
+      {title: 'Entrevista', tipo: 'Entrevista', desc: 'Muita Pergunta',link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id:'31'},
+      {title: 'Entrevista', tipo: 'Entrevista', desc: 'Muita Pergunta', link:'https://www.youtube.com/watch?v=9TahpXNJw3Y', id:'32'},
     ]
   }
 ]
